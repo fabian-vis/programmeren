@@ -1,0 +1,98 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center
+}
+
+.buttonslinks {
+  margin-top: 150px;
+  display: inline-block;
+  width: 33%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  text-align: center;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.schoen {
+margin-top: 150px;
+width: 33%;
+display: inline-block;
+}
+.lopen {
+  position: relative;
+  animation-name: lopen;
+  animation-duration: 4s;
+}
+@keyframes lopen {
+  0%   {left:0px; top:0px;}
+  25%  {left:-300px; top:0px;}
+  50%  {left:0px; top:0px;}
+  75%  {left:300px; top:0px;}
+  100% {left:0px; top:0px;}
+}
+
+.schoen img {
+  width: 300px;
+}
+
+.buttonsrechts {
+  margin-top: 150px;
+  width: 33%;
+  display: inline-block;
+}
+
+.geel {
+  filter: sepia(100%);
+}
+
+.omgekeerd {
+  filter: hue-rotate(90deg);
+}
+
+.prijstekst {
+  display: block;
+  width: 100%;
+  float: center;
+}
+
+.maat41 {
+  width: 200px !important;
+}
+
+.maat42 {
+  width: 250px !important;
+}
+
+.maat43 {
+  width: 300px !important;
+}
+
+.maat44 {
+  width: 350px !important;
+}
+.maat45 {
+  width: 400px !important;
+}
